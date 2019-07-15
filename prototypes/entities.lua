@@ -1,10 +1,10 @@
 -- Electric Stone Furnace ****************************************************************
 electricstone = util.table.deepcopy(data.raw["furnace"]["stone-furnace"])
-electricstone.name = "electric-stone-furnace"
-electricstone.icon = "__Early Big Electric Furnaces__/graphics/icons/electric-stone-furnace.png"
-electricstone.minable.result = "electric-stone-furnace"
+electricstone.name = "primitive-electric-furnace"
+electricstone.icon = "__Early-3x3-Electric-Furnaces__/graphics/icons/primitive-electric-furnace.png"
+electricstone.minable.result = "primitive-electric-furnace"
 electricstone.fast_replaceable_group = "furnace"
-electricstone.next_upgrade = "electric-steel-furnace"
+electricstone.next_upgrade = "basic-electric-furnace"
 electricstone.collision_box = {{-1.2, -1.2}, {1.2, 1.2}}
 electricstone.selection_box = {{-1.5, -1.5}, {1.5, 1.5}}
 electricstone.working_sound =
@@ -27,14 +27,14 @@ electricstone.energy_source =
 electricstone.animation.layers =
 {
   {
-    filename = "__Early Big Electric Furnaces__/graphics/entity/electric-furnace-2/electric-furnace-2-base.png",
+    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/primitive-electric-furnace/primitive-electric-furnace-base.png",
     priority = "high",
     width = 129,
     height = 100,
     frame_count = 1,
     shift = {0.421875, 0},
     hr_version = {
-      filename = "__Early Big Electric Furnaces__/graphics/entity/electric-furnace-2/hr-electric-furnace-2-base.png",
+      filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/primitive-electric-furnace/hr-primitive-electric-furnace-base.png",
       priority = "high",
       width = 239,
       height = 219,
@@ -68,9 +68,9 @@ electricstone.working_visualisations = data.raw["furnace"]["electric-furnace"].w
 
 -- Electric Steel Furnace ****************************************************************
 electricsteel = util.table.deepcopy(data.raw["furnace"]["steel-furnace"])
-electricsteel.name = "electric-steel-furnace"
-electricsteel.icon = "__Early Big Electric Furnaces__/graphics/icons/electric-steel-furnace.png"
-electricsteel.minable.result = "electric-steel-furnace"
+electricsteel.name = "basic-electric-furnace"
+electricsteel.icon = "__Early-3x3-Electric-Furnaces__/graphics/icons/basic-electric-furnace.png"
+electricsteel.minable.result = "basic-electric-furnace"
 electricsteel.fast_replaceable_group = "furnace"
 electricsteel.next_upgrade = "electric-furnace"
 electricsteel.collision_box = {{-1.2, -1.2}, {1.2, 1.2}}
@@ -95,14 +95,14 @@ electricsteel.energy_source =
 electricsteel.animation.layers =
 {
   {
-    filename = "__Early Big Electric Furnaces__/graphics/entity/electric-furnace-3/electric-furnace-3-base.png",
+    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/basic-electric-furnace/basic-electric-furnace-base.png",
     priority = "high",
     width = 129,
     height = 100,
     frame_count = 1,
     shift = {0.421875, 0},
     hr_version = {
-      filename = "__Early Big Electric Furnaces__/graphics/entity/electric-furnace-3/hr-electric-furnace-3-base.png",
+      filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/basic-electric-furnace/hr-basic-electric-furnace-base.png",
       priority = "high",
       width = 239,
       height = 219,
