@@ -1,9 +1,9 @@
 {
-	"name": "Early Big Electric Furnaces",
+	"name": "Early Electric Furnaces",
 	"version": "0.1.0",
-	"title": "Early Big Electric Furnaces",
+	"title": "Early Electric Furnaces",
 	"author": "V453000",
 	"homepage": "",
-	"description": "Adds 3x3 versions of stone and steel furnaces.",
+	"description": "Adds electric 3x3 furnaces available early.",
 	"factorio_version": "0.17"
 }
