@@ -1,4 +1,4 @@
-# Early-Big-Electric-Furnaces
+# Early-3x3-Electric-Furnaces
 
 A Factorio mod adding large electric furnaces from the start of the game.
 
