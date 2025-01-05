@@ -24,46 +24,29 @@ electricstone.energy_source =
   usage_priority = "secondary-input",
   emissions_per_second_per_watt = 1 / 180000
 }
-electricstone.animation.layers =
+electricstone.graphics_set.animation.layers =
 {
   {
-    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/primitive-electric-furnace/primitive-electric-furnace-base.png",
+    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/primitive-electric-furnace/hr-primitive-electric-furnace-base.png",
     priority = "high",
-    width = 129,
-    height = 100,
+    width = 239,
+    height = 219,
     frame_count = 1,
-    shift = {0.421875, 0},
-    hr_version = {
-      filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/primitive-electric-furnace/hr-primitive-electric-furnace-base.png",
-      priority = "high",
-      width = 239,
-      height = 219,
-      frame_count = 1,
-      shift = util.by_pixel(0.75, 5.75),
-      scale = 0.5
-    }
+    shift = util.by_pixel(0.75, 5.75),
+    scale = 0.5
   },
   {
     filename = "__base__/graphics/entity/electric-furnace/electric-furnace-shadow.png",
     priority = "high",
-    width = 129,
-    height = 100,
+    width = 227,
+    height = 171,
     frame_count = 1,
-    shift = {0.421875, 0},
     draw_as_shadow = true,
-    hr_version = {
-      filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png",
-      priority = "high",
-      width = 227,
-      height = 171,
-      frame_count = 1,
-      draw_as_shadow = true,
-      shift = util.by_pixel(11.25, 7.75),
-      scale = 0.5
-    }
+    shift = util.by_pixel(11.25, 7.75),
+    scale = 0.5
   }
 }
-electricstone.working_visualisations = data.raw["furnace"]["electric-furnace"].working_visualisations
+electricstone.graphics_set.working_visualisations = data.raw["furnace"]["electric-furnace"].graphics_set.working_visualisations
 
 
 -- Electric Steel Furnace ****************************************************************
@@ -92,46 +75,29 @@ electricsteel.energy_source =
   usage_priority = "secondary-input",
   emissions_per_second_per_watt = 2 / 180000
 }
-electricsteel.animation.layers =
+electricsteel.graphics_set.animation.layers =
 {
   {
-    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/basic-electric-furnace/basic-electric-furnace-base.png",
+    filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/basic-electric-furnace/hr-basic-electric-furnace-base.png",
     priority = "high",
-    width = 129,
-    height = 100,
+    width = 239,
+    height = 219,
     frame_count = 1,
-    shift = {0.421875, 0},
-    hr_version = {
-      filename = "__Early-3x3-Electric-Furnaces__/graphics/entity/basic-electric-furnace/hr-basic-electric-furnace-base.png",
-      priority = "high",
-      width = 239,
-      height = 219,
-      frame_count = 1,
-      shift = util.by_pixel(0.75, 5.75),
-      scale = 0.5
-    }
+    shift = util.by_pixel(0.75, 5.75),
+    scale = 0.5
   },
   {
     filename = "__base__/graphics/entity/electric-furnace/electric-furnace-shadow.png",
     priority = "high",
-    width = 129,
-    height = 100,
+    width = 227,
+    height = 171,
     frame_count = 1,
-    shift = {0.421875, 0},
     draw_as_shadow = true,
-    hr_version = {
-      filename = "__base__/graphics/entity/electric-furnace/hr-electric-furnace-shadow.png",
-      priority = "high",
-      width = 227,
-      height = 171,
-      frame_count = 1,
-      draw_as_shadow = true,
-      shift = util.by_pixel(11.25, 7.75),
-      scale = 0.5
-    }
+    shift = util.by_pixel(11.25, 7.75),
+    scale = 0.5
   }
 }
-electricsteel.working_visualisations = data.raw["furnace"]["electric-furnace"].working_visualisations
+electricsteel.graphics_set.working_visualisations = data.raw["furnace"]["electric-furnace"].graphics_set.working_visualisations
 
 data:extend(
 {

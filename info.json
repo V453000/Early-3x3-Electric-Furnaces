@@ -1,9 +1,9 @@
 {
 	"name": "Early-3x3-Electric-Furnaces",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"title": "Early 3x3 Electric Furnaces",
 	"author": "V453000",
 	"homepage": "",
 	"description": "Adds 3x3 tile electric furnaces available early.",
-	"factorio_version": "1.1"
+	"factorio_version": "2.0"
 }
